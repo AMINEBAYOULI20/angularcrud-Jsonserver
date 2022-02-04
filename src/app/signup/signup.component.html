@@ -1,0 +1,39 @@
+<!-- <div class="main">
+    <div class="login-box">
+        <div class="text-login">
+        <p>Login</p>
+        </div>
+        <div class="login-form">
+            <form [formGroup]="sinupform" >
+                <input formControlName="firstname" class="form-control" type="text" placeholder="firstname">
+                <input  formControlName="lastname"class="form-control" type="text" placeholder="lastname">
+                <input formControlName="email"class="form-control" type="text" placeholder="Email">
+                <input formControlName="pwd"class="form-control" type="password" placeholder="Password">
+                <button class="form-enter" (click)="signUp()">signUp</button>
+            </form>
+            <hr>
+        </div>
+        <div class="info">
+            <span>
+                 you have an account !
+            </span>
+            <a routerLink="/login">
+                login
+            </a>
+        </div>
+    </div>
+</div> -->
+<section class="register-photo">
+    <div class="form-container">
+        <div class="image-holder"></div>
+        <form [formGroup]="sinupform">
+            <h2 class="text-center"><strong>Create</strong> an account.</h2>
+            <div class="form-group"><input formControlName="firstname" class="form-control" type="text" placeholder="firstname"></div>
+            <div class="form-group"><input formControlName="lastname" class="form-control" type="text" placeholder="lastname"></div>
+                <div class="form-group"><input formControlName="email" class="form-control" type="text" placeholder="Email"></div>
+                    <div class="form-group"><input formControlName="pwd" class="form-control" type="password" placeholder="Password"></div>
+            <div class="form-group"><button class="btn btn-primary btn-block" (click)="signUp()">Sign Up</button></div>
+            <a class="already" routerLink="/login">You already have an account? Login here.</a>
+        </form>
+    </div>
+</section>

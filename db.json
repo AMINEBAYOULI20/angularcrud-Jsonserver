@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "firstname": "Amine",
+      "lastname": "Bayouli",
+      "email": "aminebayouli0@gmail.com",
+      "pwd": "azerty",
+      "id": 1
+    }
+  ],
+  "produit": [
+    { "id":1,
+      "nom" : "azz",
+      "prix" :"100",
+      "quantite":"12"
+    }
+  ]
+}
